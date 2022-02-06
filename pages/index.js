@@ -25,7 +25,7 @@ export default function Home({ pizzaList }) {
 }
 
 export const getServerSideProps = async () => {
-  const res = await axios.get("https://restaurant-subhasis4502.vercel.app/api/products");
+  const res = await axios.get("https://restaurant-nine-pink.vercel.app/api/products");
   return {
     props: {
       pizzaList: res.data,
