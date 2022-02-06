@@ -44,7 +44,7 @@ const Add = ({ setClose }) => {
         img: url,
       };
 
-      await axios.post("https://restaurant-nine-pink.vercel.app/api/products", newProduct);
+      await axios.post("https://subhasis-pizza-restaurant.herokuapp.com/api/products", newProduct);
       setClose(true);
     } catch (err) {
       console.log(err);
